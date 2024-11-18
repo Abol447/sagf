@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./output.css" rel="stylesheet">
+</head>
+<body>
+    <svg class="hidden">
+        <symbol id="search" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M11.5 21.75C5.85 21.75 1.25 17.15 1.25 11.5C1.25 5.85 5.85 1.25 11.5 1.25C17.15 1.25 21.75 5.85 21.75 11.5C21.75 17.15 17.15 21.75 11.5 21.75ZM11.5 2.75C6.67 2.75 2.75 6.68 2.75 11.5C2.75 16.32 6.67 20.25 11.5 20.25C16.33 20.25 20.25 16.32 20.25 11.5C20.25 6.68 16.33 2.75 11.5 2.75Z" fill="#353535"/>
+            <path d="M22.0004 22.75C21.8104 22.75 21.6204 22.68 21.4704 22.53L19.4704 20.53C19.1804 20.24 19.1804 19.76 19.4704 19.47C19.7604 19.18 20.2404 19.18 20.5304 19.47L22.5304 21.47C22.8204 21.76 22.8204 22.24 22.5304 22.53C22.3804 22.68 22.1904 22.75 22.0004 22.75Z" fill="#353535"/>
+        </symbol>
+    </svg>
+    <header class="container min-h-[690px] pt-10 bg-headerback bg-no-repeat bg-center bg-cover  bg-blend-screen space-y-[124px]">
+        <div id="bar" class="min-w-[1224px] h-28 font-Shabnam-Medium bg-gray-2 border-white border-2 rounded-2xl flex px-8 items-center justify-between backdrop-blur">
+            <div class="flex gap-9">
+                <a href="1" class="max-w-[102px] h-12 border-primery border px-4 py-2 flex items-center text-primery text-sm rounded-lg">
+                   <p> ثبت آگهی</p>
+                </a>
+                <a href="1" class="text-gray-10 text-xl flex items-center">
+                    <p class="py-[6px]">ورود</p>
+                </a>
+            </div>
+            <div class="flex items-center gap-9">
+                <ul class="flex items-center gap-6 text-gray-10 text-xl">
+                    <li>اخبار روز</li>
+                    <li>مشاورین املاک</li>
+                    <li>املاک و مستغلات</li>
+                    <li>خرید</li>
+                    <li>اجاره</li>
+                </ul>
+                <img src="../picture/header/Logo.png" alt="Logo">
+            </div>
+        </div>
+        <div class="space-y-[72px]">
+            <div id="titr" class="space-y-3">
+                <div class="font-Shabnam-Bold text-[56px] leading-[120%] text-gray-3 text-center ">
+                سقفینو؛ سقفی برای همه
+                </div>
+                <div class="font-Shabnam-Bold text-[2rem] text-white text-center">
+                    آسانی و سرعت در پیدا کردن یک سقف تازه را در سقفینو تجربه کنید 
+                </div>
+            </div>
+            <div id="form" class="max-w-[816px] h-[108px] bg-white mx-auto  px-7 rounded-xl">
+                <div class="flex pt-[14px] font-Shabnam-Medium  border-b border-b-gray-5">
+                    <div class="w-[379px] text-2xl text-center text-gray-11 h-10">
+                        خرید
+                    </div>
+                    <div class="w-[379px] text-2xl text-center text-gray-11 h-10">
+                        اجاره
+                    </div>
+                </div>
+                <form action=""  style="direction: rtl;" class="flex items-center justify-start h-8  mt-[10px]" >
+                    <svg class="max-w-6 max-h-6 fill-gray-11">
+                        <use xlink:href="#search"></use>
+                    </svg>
+                    <input type="search" placeholder="شهر مورد نظر را جست‌وجو کنید" name="search" class="w-[259px] h-8 text-center font-shabnam text-[18px] placeholder-gray-11">
+                </form>
+
+            </div>
+        </div>
+    </header>
+    
+</body>
+</html>

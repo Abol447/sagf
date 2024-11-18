@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+    @font-face{
+        font-family: 'shabnam';
+
+        src: url(/font/Shabnam.ttf);
+        
+    }
+    @font-face{
+        font-family: 'Shabnam-Bold';
+
+        src: url(/font/Shabnam-Bold.ttf);
+    }
+    @font-face{
+        font-family: 'Shabnam-Light';
+
+        src: url(/font/Shabnam-Light.ttf);
+    }
+    @font-face{
+        font-family: 'Shabnam-Medium';
+
+        src: url(/font/Shabnam-Medium.ttf);
+    }
+    @font-face{
+        font-family: 'Shabnam-Thin';
+
+        src: url(/font/Shabnam-Thin.ttf);
+    }
+}
+@layer components {
+    .rl{
+        direction: rtl;
+    }
+}
